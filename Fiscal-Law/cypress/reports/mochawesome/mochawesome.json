@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-08-14T06:59:47.480Z",
+    "end": "2025-08-14T07:00:51.127Z",
+    "duration": 63647,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8744a128-04ca-4409-a235-aea87b2eae0b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\script\\app.cy.js",
+      "file": "cypress\\e2e\\script\\app.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "feb9e774-3339-48f0-a30b-6a3354d7b340",
+          "title": "Fiscal Law Website",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should open the app and verify the title",
+              "fullTitle": "Fiscal Law Website should open the app and verify the title",
+              "timedOut": null,
+              "duration": 60468,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "app.openApp();",
+              "err": {
+                "message": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `Users\\gyana\\Avidus-Interactive-No-Code\\Fiscal-Law\\cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+                "estack": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `Users\\gyana\\Avidus-Interactive-No-Code\\Fiscal-Law\\cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:134221:64)\n    at <unknown> (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:135215:16)\n    at tryCatcher (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:4156:41)\n    at tryCatcher (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (https://fiscal-law.webflow.io/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at App.openApp (webpack://fiscal-law/./cypress/e2e/pages/app.js:4:11)\n    at Context.eval (webpack://fiscal-law/./cypress/e2e/script/app.cy.js:8:12)",
+                "diff": null
+              },
+              "uuid": "493f48bb-79f0-454e-b65d-69d739e2997f",
+              "parentUUID": "feb9e774-3339-48f0-a30b-6a3354d7b340",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "493f48bb-79f0-454e-b65d-69d739e2997f"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 60468,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
