@@ -1,9 +1,36 @@
 // config.js
 export const config = {
   baseUrl: 'https://www.asme-india.org',
-  contactUrl: 'https://www.asme-india.org/imece/contact-us',
   targetUsers: 200,
   rampUpDuration: '5s',
   testDuration: '10s',
-  rampDownDuration: '5s'
+  rampDownDuration: '5s',
+
+  imeceHome: 'https://www.asme-india.org/imece',
+  aboutAsme: 'https://www.asme-india.org/imece/about-asme',
+  aboutImece: 'https://www.asme-india.org/imece/about-imece',
+  organizingCommittee: 'https://www.asme-india.org/imece/organizing-committee',
+  messageFromChair: 'https://www.asme-india.org/imece/message-from-chair',
+  programOverview: 'https://www.asme-india.org/imece/program-overview',
+  tracks: 'https://www.asme-india.org/imece/tracks',
+  meed: 'https://www.asme-india.org/imece/meed',
+  womenInEngineering: 'https://www.asme-india.org/imece/women-in-engineering',
+  keynotesPlenary: 'https://www.asme-india.org/imece/keynotes-plenary',
+  scheduleAtAGlance: 'https://www.asme-india.org/imece/schedule-at-a-glance',
+  hardwareConclave: 'https://www.asme-india.org/imece/hardware-conclave',
+  studentEngagements: 'https://www.asme-india.org/imece/student-engagements',
+  networking: 'https://www.asme-india.org/imece/networking',
+  register: 'https://www.asme-india.org/imece/register',
+  ourSponsors: 'https://www.asme-india.org/imece/our-sponsors',
+  opportunities: 'https://www.asme-india.org/imece/opportunities',
+  venueOverview: 'https://www.asme-india.org/imece/venue-overview',
+  howToGetThere: 'https://www.asme-india.org/imece/how-to-get-there',
+  hotelOptions: 'https://www.asme-india.org/imece/hotel-options',
+  thingsToDo: 'https://www.asme-india.org/imece/things-to-do',
+  presentationRequirements: 'https://www.asme-india.org/imece/presentation-requirements',
+  coAuthorLoginRequirement: 'https://www.asme-india.org/imece/co-author-login-requirement',
+  codeOfConduct: 'https://www.asme-india.org/imece/code-of-conduct',
+  aiUseAsmeExternalContent: 'https://www.asme-india.org/imece/ai-use-asme-external-content',
+  mediaResources: 'https://www.asme-india.org/imece/media-resources',
+  contactUrl: 'https://www.asme-india.org/imece/contact-us'
 };

@@ -3,7 +3,7 @@ import { check, sleep } from 'k6';
 import { config } from './config.js';
 
 // Use configuration directly from config.js
-const contactUrl = config.contactUrl;
+const contactUrl = config.networking;
 const targetUsers = config.targetUsers;
 const rampUpDuration = config.rampUpDuration;
 const testDuration = config.testDuration;
