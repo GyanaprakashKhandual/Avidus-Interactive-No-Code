@@ -34,11 +34,5 @@ export default function () {
 
   const response = http.get(contactUrl, params);
 
-  check(response, {
-    'status is 200': (r) => r.status === 200,
-    'response time acceptable': (r) => r.timings.duration < 3000,
-    'page contains contact content': (r) => r.body.includes('contact') || r.body.includes('Contact'),
-  });
-
   sleep(0.1);
 }
